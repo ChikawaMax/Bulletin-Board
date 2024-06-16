@@ -1,0 +1,9 @@
+{
+    "build": {
+        "env": {
+            "NEXT_PUBLIC_PRISMA_GENERATE": "true"
+        },
+        "outputDirectory": "out",
+        "useBuildCache": false
+    }
+}
