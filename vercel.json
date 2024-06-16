@@ -1,8 +1,12 @@
 {
-    "build": {
-        "env": {
-            "NEXT_PUBLIC_PRISMA_GENERATE": "true"
-        },
-        "useBuildCache": false
+    "version": 2,
+    "builds": [
+        {
+            "src": "next.config.js",
+            "use": "@vercel/next"
+        }
+    ],
+    "env": {
+        "NEXT_PUBLIC_PRISMA_GENERATE": "true"
     }
 }
